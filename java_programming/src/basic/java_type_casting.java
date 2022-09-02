@@ -1,0 +1,10 @@
+package basic;
+
+public class java_type_casting {
+    public static void main(String[] args) {
+        int myInt = 13;
+        double myDouble = myInt; // Automatic casting : int to double
+        System.out.println(myInt);
+        System.out.println(myDouble);
+    }
+}
